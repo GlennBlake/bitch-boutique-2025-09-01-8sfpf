@@ -3,30 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitch.Boutique - For Badass Bitches</title>
     <meta name="description" content="A premium boutique for badass individuals - featuring clothing, accessories, books, and home decor.">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Poppins'] antialiased bg-white">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-['Playfair_Display'] font-bold text-black tracking-tight">Bitch.Boutique</a>
+                <a href="https://GlennBlake.github.io/bitch-boutique-2025-09-01-8sfpf" class="text-2xl font-['Playfair_Display'] font-bold text-black tracking-tight hover:text-gray-700 transition-colors duration-300">Bitch.Boutique</a>
                 
                 <div class="hidden md:flex space-x-8">
-                    <a href="#" class="text-gray-800 hover:text-black transition-colors duration-300">Shop</a>
-                    <a href="#" class="text-gray-800 hover:text-black transition-colors duration-300">Collections</a>
-                    <a href="#" class="text-gray-800 hover:text-black transition-colors duration-300">About</a>
-                    <a href="#" class="text-gray-800 hover:text-black transition-colors duration-300">Blog</a>
+                    <a href="#shop" class="text-gray-800 hover:text-black transition-colors duration-300">Shop</a>
+                    <a href="#collections" class="text-gray-800 hover:text-black transition-colors duration-300">Collections</a>
+                    <a href="#about" class="text-gray-800 hover:text-black transition-colors duration-300">About</a>
+                    <a href="https://GlennBlake.github.io/bitch-boutique-2025-09-01-8sfpf/blog.html" class="text-gray-800 hover:text-black transition-colors duration-300">Blog</a>
                 </div>
 
-                <button class="md:hidden">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white absolute left-0 right-0 p-4 border-t border-gray-100">
+                <a href="#shop" class="block py-2 text-gray-800 hover:text-black transition-colors duration-300">Shop</a>
+                <a href="#collections" class="block py-2 text-gray-800 hover:text-black transition-colors duration-300">Collections</a>
+                <a href="#about" class="block py-2 text-gray-800 hover:text-black transition-colors duration-300">About</a>
+                <a href="https://GlennBlake.github.io/bitch-boutique-2025-09-01-8sfpf/blog.html" class="block py-2 text-gray-800 hover:text-black transition-colors duration-300">Blog</a>
             </div>
         </nav>
     </header>
@@ -36,27 +56,133 @@
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-5xl md:text-7xl font-['Playfair_Display'] font-bold text-black mb-6 leading-tight">We Bark.<br>We Bite.</h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">A curated space for the bold and unapologetic.</p>
-                <a href="#" class="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Shop Now</a>
+                <p class="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">Unleash your inner fierce with our curated collection of bold, statement-making pieces. For those who dare to stand out and own their power.</p>
+                <a href="#shop" class="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl hover:bg-gray-900">Shop Now</a>
             </div>
         </div>
     </section>
 
     <!-- Features Grid -->
-    <section class="py-24 bg-white">
+    <section id="shop" class="py-24 bg-white">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl">
-                    <h3 class="text-2xl font-semibold mb-4">Clothing</h3>
-                    <p class="text-gray-600 leading-relaxed">Premium pieces for the fearless fashionista.</p>
+                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-102">
+                    <h3 class="text-2xl font-semibold mb-4">Luxury Clothing</h3>
+                    <p class="text-gray-600 leading-relaxed">Expertly crafted pieces that combine edge with elegance. From power suits to statement dresses, each item is selected to make you feel unstoppable.</p>
                 </div>
-                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl">
-                    <h3 class="text-2xl font-semibold mb-4">Accessories</h3>
-                    <p class="text-gray-600 leading-relaxed">Statement pieces that demand attention.</p>
+                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-102">
+                    <h3 class="text-2xl font-semibold mb-4">Bold Accessories</h3>
+                    <p class="text-gray-600 leading-relaxed">Curated accessories that demand attention and spark conversations. From dramatic jewelry to head-turning bags, make every detail count.</p>
                 </div>
-                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl">
-                    <h3 class="text-2xl font-semibold mb-4">Books</h3>
-                    <p class="text-gray-600 leading-relaxed">Literature for the intellectual rebel.</p>
+                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-102">
+                    <h3 class="text-2xl font-semibold mb-4">Empowering Books</h3>
+                    <p class="text-gray-600 leading-relaxed">A carefully selected collection of thought-provoking literature that challenges norms and inspires change. Feed your mind while expressing your style.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-4xl font-['Playfair_Display'] font-bold mb-8">Our Story</h2>
+                <div class="space-y-6 text-gray-700">
+                    <p class="leading-relaxed">Founded in 2020 by a collective of fashion rebels, Bitch.Boutique emerged from a desire to create a space where bold self-expression meets luxury. What started as a small online store has grown into a movement, championing individuality and fearless style.</p>
+                    <p class="leading-relaxed">Our mission is to empower individuals to embrace their authentic selves through fashion and lifestyle choices that make a statement. We believe in the power of self-expression, quality craftsmanship, and creating a community that celebrates uniqueness in all its forms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-['Playfair_Display'] font-bold mb-12 text-center">What Our Pack Says</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"The quality of their clothing is unmatched. I purchased the power suit and received countless compliments. It's become my go-to for important meetings."</p>
+                    <p class="font-semibold">Sarah Martinez</p>
+                    <p class="text-sm text-gray-500">CEO, Tech Innovations</p>
+                </div>
+                
+                <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Their book selection opened my mind to new perspectives. The curated collection is thoughtful and empowering. Plus, the packaging is Instagram-worthy!"</p>
+                    <p class="font-semibold">Alex Wong</p>
+                    <p class="text-sm text-gray-500">Content Creator</p>
+                </div>
+
+                <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Found my signature style through their accessories collection. Each piece tells a story and makes me feel powerful."</p>
+                    <p class="font-semibold">Jordan Taylor</p>
+                    <p class="text-sm text-gray-500">Fashion Blogger</p>
+                </div>
+
+                <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Not just a boutique, but a community. The customer service is exceptional, and the products exceed expectations every time."</p>
+                    <p class="font-semibold">Rachel Chen</p>
+                    <p class="text-sm text-gray-500">Art Director</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-['Playfair_Display'] font-bold mb-12 text-center">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">What makes Bitch.Boutique different?</h3>
+                    <p class="text-gray-600">We curate only the boldest, highest-quality pieces that empower and inspire. Each item is carefully selected to ensure it meets our standards for both style and sustainability.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">How do you handle shipping and returns?</h3>
+                    <p class="text-gray-600">We offer free worldwide shipping on orders over $150 and a hassle-free 30-day return policy. All items must be returned in original condition with tags attached.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">Are your products sustainable?</h3>
+                    <p class="text-gray-600">Yes! We partner with ethical manufacturers and prioritize sustainable materials. Each product description includes detailed information about its environmental impact.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">Do you offer personal styling services?</h3>
+                    <p class="text-gray-600">Absolutely! Our team of professional stylists offers virtual consultations to help you create your perfect wardrobe. Book through our customer service team.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">How often do you release new collections?</h3>
+                    <p class="text-gray-600">We launch new collections quarterly, with limited-edition drops throughout the year. Subscribe to our newsletter to stay updated on releases.</p>
                 </div>
             </div>
         </div>
@@ -66,15 +192,15 @@
     <section class="py-24 bg-black text-white">
         <div class="container mx-auto px-6">
             <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-4xl md:text-5xl font-['Playfair_Display'] font-bold mb-8">a place for badass bitches.</h2>
-                <p class="text-xl text-gray-300 leading-relaxed mb-12">Where attitude meets style, and conformity takes a back seat.</p>
-                <a href="#" class="inline-block bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:transform hover:scale-105 transition-all duration-300">Join the Pack</a>
+                <h2 class="text-4xl md:text-5xl font-['Playfair_Display'] font-bold mb-8">Join Our Pack</h2>
+                <p class="text-xl text-gray-300 leading-relaxed mb-12">Be part of a community that celebrates authenticity, empowerment, and bold self-expression. Get exclusive access to new collections, special events, and member-only perks.</p>
+                <a href="#" class="inline-block bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 hover:bg-gray-100">Become a Member</a>
             </div>
         </div>
     </section>
 
     <!-- Blog Preview -->
-    <section class="py-24 bg-white">
+    <section id="blog" class="py-24 bg-white">
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-['Playfair_Display'] font-bold mb-12 text-center">Latest from the Blog</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -83,14 +209,14 @@
                         <img src="https://source.unsplash.com/random/800x600?fashion" alt="Blog post" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300">
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Style Guide: Breaking the Rules</h3>
-                    <p class="text-gray-600">Your guide to disrupting fashion norms with confidence.</p>
+                    <p class="text-gray-600">Your comprehensive guide to disrupting fashion norms with confidence and creating your signature style.</p>
                 </article>
                 <article class="group">
                     <div class="aspect-w-16 aspect-h-9 mb-6 rounded-xl overflow-hidden">
                         <img src="https://source.unsplash.com/random/800x600?lifestyle" alt="Blog post" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300">
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Living Bold: A Manifesto</h3>
-                    <p class="text-gray-600">Embrace your inner rebel and live life on your terms.</p>
+                    <p class="text-gray-600">Discover how to embrace your inner rebel and live life unapologetically on your own terms.</p>
                 </article>
             </div>
         </div>
@@ -107,18 +233,19 @@
                 <div>
                     <h5 class="font-semibold mb-4">Shop</h5>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Clothing</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Accessories</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Books</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Home Decor</a></li>
+                        <li><a href="#shop" class="text-gray-400 hover:text-white transition-colors duration-300">Clothing</a></li>
+                        <li><a href="#shop" class="text-gray-400 hover:text-white transition-colors duration-300">Accessories</a></li>
+                        <li><a href="#shop" class="text-gray-400 hover:text-white transition-colors duration-300">Books</a></li>
+                        <li><a href="#shop" class="text-gray-400 hover:text-white transition-colors duration-300">Home Decor</a></li>
                     </ul>
                 </div>
                 <div>
                     <h5 class="font-semibold mb-4">Company</h5>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="https://GlennBlake.github.io/bitch-boutique-2025-09-01-8sfpf/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://GlennBlake.github.io/bitch-boutique-2025-09-01-8sfpf/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms</a></li>
+                        <li><a href="https://GlennBlake.github.io/bitch-boutique-2025-09-01-8sfpf/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy</a></li>
                     </ul>
                 </div>
                 <div>
@@ -131,5 +258,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
