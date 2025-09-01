@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitch.Boutique - For Badass Bitches</title>
+    <meta name="description" content="A premium boutique for badass individuals - featuring clothing, accessories, books, and home decor.">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-['Poppins'] antialiased bg-white">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-2xl font-['Playfair_Display'] font-bold text-black tracking-tight">Bitch.Boutique</a>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-800 hover:text-black transition-colors duration-300">Shop</a>
+                    <a href="#" class="text-gray-800 hover:text-black transition-colors duration-300">Collections</a>
+                    <a href="#" class="text-gray-800 hover:text-black transition-colors duration-300">About</a>
+                    <a href="#" class="text-gray-800 hover:text-black transition-colors duration-300">Blog</a>
+                </div>
+
+                <button class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-24 md:pt-40 md:pb-32 bg-gradient-to-br from-pink-50 via-white to-purple-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl md:text-7xl font-['Playfair_Display'] font-bold text-black mb-6 leading-tight">We Bark.<br>We Bite.</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">A curated space for the bold and unapologetic.</p>
+                <a href="#" class="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl">
+                    <h3 class="text-2xl font-semibold mb-4">Clothing</h3>
+                    <p class="text-gray-600 leading-relaxed">Premium pieces for the fearless fashionista.</p>
+                </div>
+                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl">
+                    <h3 class="text-2xl font-semibold mb-4">Accessories</h3>
+                    <p class="text-gray-600 leading-relaxed">Statement pieces that demand attention.</p>
+                </div>
+                <div class="group p-8 rounded-2xl bg-white border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl">
+                    <h3 class="text-2xl font-semibold mb-4">Books</h3>
+                    <p class="text-gray-600 leading-relaxed">Literature for the intellectual rebel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-24 bg-black text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-['Playfair_Display'] font-bold mb-8">a place for badass bitches.</h2>
+                <p class="text-xl text-gray-300 leading-relaxed mb-12">Where attitude meets style, and conformity takes a back seat.</p>
+                <a href="#" class="inline-block bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:transform hover:scale-105 transition-all duration-300">Join the Pack</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-['Playfair_Display'] font-bold mb-12 text-center">Latest from the Blog</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <article class="group">
+                    <div class="aspect-w-16 aspect-h-9 mb-6 rounded-xl overflow-hidden">
+                        <img src="https://source.unsplash.com/random/800x600?fashion" alt="Blog post" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Style Guide: Breaking the Rules</h3>
+                    <p class="text-gray-600">Your guide to disrupting fashion norms with confidence.</p>
+                </article>
+                <article class="group">
+                    <div class="aspect-w-16 aspect-h-9 mb-6 rounded-xl overflow-hidden">
+                        <img src="https://source.unsplash.com/random/800x600?lifestyle" alt="Blog post" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Living Bold: A Manifesto</h3>
+                    <p class="text-gray-600">Embrace your inner rebel and live life on your terms.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h4 class="font-['Playfair_Display'] text-2xl font-bold mb-6">Bitch.Boutique</h4>
+                    <p class="text-gray-400">For the bold, the brave, and the unapologetically authentic.</p>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Shop</h5>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Clothing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Accessories</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Books</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Home Decor</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Company</h5>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Contact</h5>
+                    <a href="mailto:glennblake@gmail.com" class="text-gray-400 hover:text-white transition-colors duration-300">glennblake@gmail.com</a>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 Bitch.Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
